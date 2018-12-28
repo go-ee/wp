@@ -3,9 +3,6 @@ package main
 import (
 	"bufio"
 	"bytes"
-	"ee/schkola/person"
-	"ee/schkola/shared"
-	"ee/schkola/student"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -16,6 +13,10 @@ import (
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/go-ee/schkola/person"
+	"github.com/go-ee/schkola/shared"
+	"github.com/go-ee/schkola/student"
 
 	"github.com/looplab/eventhorizon"
 	"github.com/yvasiyarov/php_session_decoder/php_serialize"
